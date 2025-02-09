@@ -33,7 +33,6 @@ body {
     display: flex;
     gap: 10px;
     padding-right: 10px;
-
 }
 
 .topnav button {
@@ -67,7 +66,7 @@ body {
     border-radius: 10px;
     max-width: 1080px;
     width: 80%;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 h1 {
@@ -82,7 +81,7 @@ h1 {
 }
 
 .incorrect {
-    background-color: lightcoral; 
+    background-color: lightcoral;
     padding: 5px;
     border-radius: 5px;
 }
@@ -90,4 +89,33 @@ h1 {
 .answer {
     padding: 10px;
     display: block;
+}
+
+#diagram-matching {
+    padding-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.matching select  {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.matching {
+    columns: 2;
+    column-gap: 20px;
+    padding-top: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
 }
