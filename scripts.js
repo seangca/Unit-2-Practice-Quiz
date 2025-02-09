@@ -9,67 +9,65 @@ document.addEventListener("DOMContentLoaded", () => { // initialize the variable
 
   const correctAnswers = { // correct answers
     // Group 1 (Questions 1–10)
-    q1: "c",  // Epididymis
-    q2: "c",  // Seminal vesicles
-    q3: "a",  // Vas deferens
-    q4: "b",  // Support and nourish sperm cells (Sertoli cells)
-    q5: "c",  // LH (stimulates testosterone production)
-    q6: "b",  // Ovaries (produce female gametes)
-    q7: "c",  // LH (triggers ovulation)
-    q8: "a",  // Corpus luteum produces estrogen and progesterone
-    q9: "c",  // Fallopian tubes (site of fertilization)
-    q10: "c", // hCG (maintains the corpus luteum during early pregnancy)
+    q1: "c",  // Sperm mature in the epididymis.
+    q2: "c",  // Seminal vesicles contribute fructose to semen.
+    q3: "a",  // Sperm are transported via the vas deferens.
+    q4: "b",  // Sertoli cells support and nourish sperm cells.
+    q5: "c",  // LH stimulates testosterone production.
+    q6: "b",  // Ovaries produce female gametes.
+    q7: "c",  // An LH surge triggers ovulation.
+    q8: "a",  // The corpus luteum produces estrogen and progesterone.
+    q9: "c",  // Fertilization typically occurs in the Fallopian tubes.
+    q10: "c", // hCG maintains the corpus luteum during early pregnancy.
 
     // Group 2 (Questions 11–20)
-    q11: "a", // Gas, nutrient, and waste exchange (placenta function)
-    q12: "b", // Ovulation (release of a mature egg)
-    q13: "a", // Uterus (the endometrium is its lining)
-    q14: "b", // Cervix (connects the uterus to the vagina)
-    q15: "b", // Interstitial (Leydig) cells produce testosterone
-    q16: "c", // Acrosome releases enzymes to penetrate the egg
-    q17: "a", // Follicular and luteal phases (ovarian cycle)
-    q18: "c", // Progesterone (prevents ovulation during pregnancy)
-    q19: "a", // Colostrum (first breast secretion rich in protein and antibodies)
-    q20: "c", // Seminiferous tubules (produce sperm)
+    q11: "a", // The placenta’s main function is gas, nutrient, and waste exchange.
+    q12: "b", // Ovulation is the release of a mature egg from the ovary.
+    q13: "a", // The endometrium is the lining of the uterus.
+    q14: "b", // The cervix connects the uterus to the vagina.
+    q15: "b", // Testosterone is produced by interstitial (Leydig) cells.
+    q16: "c", // The acrosome releases enzymes to penetrate the egg.
+    q17: "a", // The ovarian cycle has two main phases: follicular and luteal.
+    q18: "c", // Progesterone prevents ovulation during pregnancy.
+    q19: "a", // The first breast secretion is colostrum.
+    q20: "c", // Sperm are produced in the seminiferous tubules.
 
     // Group 3 (Questions 21–30)
-    q21: "d", // Prolactin (stimulates milk production)
-    q22: "b", // Menopause (cessation of menstruation)
-    q23: "c", // Condom (a barrier method of birth control)
-    q24: "b", // Connects the fetus to the placenta (umbilical cord)
-    q25: "c", // Implantation (embryo implants into the uterus)
-    q26: "b", // Uterus (contracts to push the baby out during childbirth)
-    q27: "a", // Zona pellucida (prevents multiple sperm from fertilizing the egg)
-    q28: "c", // Prostate gland (produces prostaglandins that cause uterine contractions)
-    q29: "c", // Inhibits FSH production (role of inhibin in male reproduction)
-    q30: "c", // Ectoderm (outermost layer of the embryo)
+    q21: "d", // Prolactin stimulates milk production.
+    q22: "b", // Menopause is the cessation of menstruation.
+    q23: "c", // A condom is a barrier method of birth control.
+    q24: "b", // The umbilical cord connects the fetus to the placenta.
+    q25: "c", // Implantation is when an embryo embeds into the uterus.
+    q26: "b", // The uterus contracts to expel the baby during childbirth.
+    q27: "a", // The zona pellucida prevents multiple sperm from fertilizing the egg.
+    q28: "c", // The prostate gland produces prostaglandins that aid uterine contractions.
+    q29: "c", // Inhibin’s role is to inhibit FSH production.
+    q30: "c", // The outermost embryonic layer is the ectoderm.
 
     // Group 4 (Questions 31–40)
-    q31: "b", // Estrogen maintains female secondary sex characteristics
-    q32: "b", // Zygote (a fertilized egg)
-    q33: "b", // Oxytocin (responsible for labor contractions)
-    q34: "b", // Amniotic sac (protects the fetus)
-    q35: "a", // Dilation (first stage of parturition/labor)
-    q36: "d", // Zygote (the first stage of embryonic development)
-    q37: "b", // A gamete is a reproductive cell
-    q38: "a", // Epididymis (where sperm are stored before ejaculation)
-    q39: "c", // IUD (prevents implantation)
-    q40: "b", // Chorion (involved in gas exchange and placenta formation)
+    q31: "b", // Estrogen maintains female secondary sex characteristics.
+    q32: "b", // A fertilized egg is called a zygote.
+    q33: "b", // Oxytocin is responsible for labor contractions.
+    q34: "b", // The primary purpose of the amniotic sac is to protect the fetus.
+    q35: "a", // The first stage of parturition (labor) is dilation.
+    q36: "d", // The first stage of embryonic development is the zygote.
+    q37: "b", // A gamete is a reproductive cell.
+    q38: "a", // Sperm are stored in the epididymis before ejaculation.
+    q39: "c", // An IUD prevents implantation.
+    q40: "b", // The chorion is involved in gas exchange and placenta formation.
 
     // Group 5 (Questions 41–50)
-    q41: "c", // Morula (solid ball of cells after fertilization)
-    q42: "d", // Human papillomavirus (HPV) (virus causing cervical cancer)
-    q43: "c", // hCG (hormone detected in pregnancy tests)
-    q44: "b", // Progesterone (in birth control pills prevents ovulation)
-    q45: "b", // Endometrium (layer of the uterus that sheds during menstruation)
-    q46: "b", // Gonorrhea (bacterial STI leading to PID)
-    q47: "b", // Allantois (forms blood vessels for waste removal)
-    q48: "c", // Blastocyst (stage when the embryo implants into the uterine wall)
-    q49: "b", // Placenta (allows oxygen and nutrients to pass from mother to fetus)
-    q50: "b"  // Relaxin (softens the cervix and loosens ligaments)
+    q41: "c", // A morula is a solid ball of cells formed after fertilization.
+    q42: "d", // HPV (Human papillomavirus) is a virus that can lead to cervical cancer.
+    q43: "c", // Pregnancy tests detect hCG.
+    q44: "b", // Birth control pills use progesterone to prevent ovulation.
+    q45: "b", // The endometrium is the uterine lining that sheds during menstruation.
+    q46: "b", // Gonorrhea is a bacterial STI that can lead to PID.
+    q47: "b", // The allantois forms blood vessels for waste removal.
+    q48: "c", // Implantation of the embryo occurs at the blastocyst stage.
+    q49: "b", // The placenta allows oxygen and nutrients to pass from mother to fetus.
+    q50: "b"  // Relaxin softens the cervix and loosens ligaments during pregnancy.
 };
-
-
 
   let timer = 1800; 
   let timerInterval;
