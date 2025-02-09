@@ -1,0 +1,93 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightpink;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav .timer {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.topnav .buttons {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+
+}
+
+.topnav button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.topnav #submit {
+    background-color: pink;
+}
+
+.topnav #submit:hover {
+    background-color: palevioletred;
+}
+
+.topnav #reset {
+    background-color: darkgray;
+}
+
+.topnav #reset:hover {
+    background-color: gray;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1080px;
+    width: 80%;
+    margin-top: 20px; 
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.correct {
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.incorrect {
+    background-color: lightcoral; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.answer {
+    padding: 10px;
+    display: block;
+}

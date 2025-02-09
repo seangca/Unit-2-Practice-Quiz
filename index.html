@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology 30: Unit 2 Practice Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="topnav">
+        <div class="timer" id="timer">30:00</div> <!-- 30 minute timer -->
+        <div class="buttons">
+            <button id="submit">Submit Quiz</button>
+            <button id="reset">Reset</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Biology 30: Unit 2 Practice Test</h1>
+        <form id="quiz">
+
+            <div id="q1" class="question">
+                <p>1. Where do sperm mature after being produced in the testes?</p>
+                <label class="answer"><input type="radio" name="q1" value="a"> a) Vas deferens</label>
+                <label class="answer"><input type="radio" name="q1" value="b"> b) Urethra</label>
+                <label class="answer"><input type="radio" name="q1" value="c"> c) Epididymis</label>
+                <label class="answer"><input type="radio" name="q1" value="d"> d) Seminal vesicles</label>
+            </div>
+
+            <div id="q2" class="question">
+                <p>2. Which gland contributes fructose to semen to provide energy for sperm?</p>
+                <label class="answer"><input type="radio" name="q2" value="a"> a) Bulbourethral glands</label>
+                <label class="answer"><input type="radio" name="q2" value="b"> b) Prostate gland</label>
+                <label class="answer"><input type="radio" name="q2" value="c"> c) Seminal vesicles</label>
+                <label class="answer"><input type="radio" name="q2" value="d"> d) Testes</label>
+            </div>
+
+            <div id="q3" class="question">
+                <p>3. Which structure transports sperm from the epididymis to the ejaculatory duct?</p>
+                <label class="answer"><input type="radio" name="q3" value="a"> a) Vas deferens</label>
+                <label class="answer"><input type="radio" name="q3" value="b"> b) Urethra</label>
+                <label class="answer"><input type="radio" name="q3" value="c"> c) Seminal vesicle</label>
+                <label class="answer"><input type="radio" name="q3" value="d"> d) Prostate gland</label>
+            </div>
+
+            <div id="q4" class="question">
+                <p>4. What is the function of Sertoli cells in the testes?</p>
+                <label class="answer"><input type="radio" name="q4" value="a"> a) Produce testosterone</label>
+                <label class="answer"><input type="radio" name="q4" value="b"> b) Support and nourish sperm
+                    cells</label>
+                <label class="answer"><input type="radio" name="q4" value="c"> c) Store sperm</label>
+                <label class="answer"><input type="radio" name="q4" value="d"> d) Transport sperm</label>
+            </div>
+
+            <div id="q5" class="question">
+                <p>5. What hormone is responsible for stimulating testosterone production in males?</p>
+                <label class="answer"><input type="radio" name="q5" value="a"> a) FSH</label>
+                <label class="answer"><input type="radio" name="q5" value="b"> b) GnRH</label>
+                <label class="answer"><input type="radio" name="q5" value="c"> c) LH</label>
+                <label class="answer"><input type="radio" name="q5" value="d"> d) Inhibin</label>
+            </div>
+
+            <div id="q6" class="question">
+                <p>6. What structure produces female gametes?</p>
+                <label class="answer"><input type="radio" name="q6" value="a"> a) Uterus</label>
+                <label class="answer"><input type="radio" name="q6" value="b"> b) Ovaries</label>
+                <label class="answer"><input type="radio" name="q6" value="c"> c) Fallopian tubes</label>
+                <label class="answer"><input type="radio" name="q6" value="d"> d) Cervix</label>
+            </div>
+
+            <div id="q7" class="question">
+                <p>7. What hormone triggers ovulation in females?</p>
+                <label class="answer"><input type="radio" name="q7" value="a"> a) Estrogen</label>
+                <label class="answer"><input type="radio" name="q7" value="b"> b) Progesterone</label>
+                <label class="answer"><input type="radio" name="q7" value="c"> c) LH</label>
+                <label class="answer"><input type="radio" name="q7" value="d"> d) FSH</label>
+            </div>
+
+            <div id="q8" class="question">
+                <p>8. What is the primary function of the corpus luteum?</p>
+                <label class="answer"><input type="radio" name="q8" value="a"> a) Produces estrogen and
+                    progesterone</label>
+                <label class="answer"><input type="radio" name="q8" value="b"> b) Produces FSH and LH</label>
+                <label class="answer"><input type="radio" name="q8" value="c"> c) Stores eggs</label>
+                <label class="answer"><input type="radio" name="q8" value="d"> d) Facilitates sperm movement</label>
+            </div>
+
+            <div id="q9" class="question">
+                <p>9. Where does fertilization usually take place?</p>
+                <label class="answer"><input type="radio" name="q9" value="a"> a) Uterus</label>
+                <label class="answer"><input type="radio" name="q9" value="b"> b) Ovaries</label>
+                <label class="answer"><input type="radio" name="q9" value="c"> c) Fallopian tubes</label>
+                <label class="answer"><input type="radio" name="q9" value="d"> d) Cervix</label>
+            </div>
+
+            <div id="q10" class="question">
+                <p>10. Which hormone maintains the corpus luteum during early pregnancy?</p>
+                <label class="answer"><input type="radio" name="q10" value="a"> a) Estrogen</label>
+                <label class="answer"><input type="radio" name="q10" value="b"> b) Progesterone</label>
+                <label class="answer"><input type="radio" name="q10" value="c"> c) hCG</label>
+                <label class="answer"><input type="radio" name="q10" value="d"> d) FSH</label>
+            </div>
+
+            <div id="q11" class="question">
+                <p>11. What is the main function of the placenta?</p>
+                <label class="answer"><input type="radio" name="q11" value="a"> a) Gas, nutrient, and waste
+                    exchange</label>
+                <label class="answer"><input type="radio" name="q11" value="b"> b) Producing sperm</label>
+                <label class="answer"><input type="radio" name="q11" value="c"> c) Creating red blood cells</label>
+                <label class="answer"><input type="radio" name="q11" value="d"> d) Digesting food</label>
+            </div>
+
+            <div id="q12" class="question">
+                <p>12. What is the term for the release of a mature egg from the ovary?</p>
+                <label class="answer"><input type="radio" name="q12" value="a"> a) Menstruation</label>
+                <label class="answer"><input type="radio" name="q12" value="b"> b) Ovulation</label>
+                <label class="answer"><input type="radio" name="q12" value="c"> c) Fertilization</label>
+                <label class="answer"><input type="radio" name="q12" value="d"> d) Implantation</label>
+            </div>
+
+            <div id="q13" class="question">
+                <p>13. Which organ does the endometrium belong to?</p>
+                <label class="answer"><input type="radio" name="q13" value="a"> a) Uterus</label>
+                <label class="answer"><input type="radio" name="q13" value="b"> b) Ovaries</label>
+                <label class="answer"><input type="radio" name="q13" value="c"> c) Cervix</label>
+                <label class="answer"><input type="radio" name="q13" value="d"> d) Fallopian tubes</label>
+            </div>
+
+            <div id="q14" class="question">
+                <p>14. What structure connects the uterus to the vagina?</p>
+                <label class="answer"><input type="radio" name="q14" value="a"> a) Fallopian tubes</label>
+                <label class="answer"><input type="radio" name="q14" value="b"> b) Cervix</label>
+                <label class="answer"><input type="radio" name="q14" value="c"> c) Endometrium</label>
+                <label class="answer"><input type="radio" name="q14" value="d"> d) Placenta</label>
+            </div>
+
+            <div id="q15" class="question">
+                <p>15. The male hormone testosterone is produced by:</p>
+                <label class="answer"><input type="radio" name="q15" value="a"> a) Sertoli cells</label>
+                <label class="answer"><input type="radio" name="q15" value="b"> b) Interstitial cells</label>
+                <label class="answer"><input type="radio" name="q15" value="c"> c) Epididymis</label>
+                <label class="answer"><input type="radio" name="q15" value="d"> d) Urethra</label>
+            </div>
+
+            <div id="q16" class="question">
+                <p>16. The function of the acrosome in sperm is to:</p>
+                <label class="answer"><input type="radio" name="q16" value="a"> a) Provide energy</label>
+                <label class="answer"><input type="radio" name="q16" value="b"> b) Store DNA</label>
+                <label class="answer"><input type="radio" name="q16" value="c"> c) Release enzymes to penetrate the
+                    egg</label>
+                <label class="answer"><input type="radio" name="q16" value="d"> d) Control sperm motility</label>
+            </div>
+
+            <div id="q17" class="question">
+                <p>17. The ovarian cycle consists of which two main phases?</p>
+                <label class="answer"><input type="radio" name="q17" value="a"> a) Follicular and luteal</label>
+                <label class="answer"><input type="radio" name="q17" value="b"> b) Secretory and menstrual</label>
+                <label class="answer"><input type="radio" name="q17" value="c"> c) Fertilization and
+                    implantation</label>
+                <label class="answer"><input type="radio" name="q17" value="d"> d) Estrogen and progesterone</label>
+            </div>
+
+            <div id="q18" class="question">
+                <p>18. What hormone prevents ovulation during pregnancy?</p>
+                <label class="answer"><input type="radio" name="q18" value="a"> a) FSH</label>
+                <label class="answer"><input type="radio" name="q18" value="b"> b) LH</label>
+                <label class="answer"><input type="radio" name="q18" value="c"> c) Progesterone</label>
+                <label class="answer"><input type="radio" name="q18" value="d"> d) Testosterone</label>
+            </div>
+
+            <div id="q19" class="question">
+                <p>19. What is the term for the first breast secretion that is rich in protein and antibodies?</p>
+                <label class="answer"><input type="radio" name="q19" value="a"> a) Colostrum</label>
+                <label class="answer"><input type="radio" name="q19" value="b"> b) Amniotic fluid</label>
+                <label class="answer"><input type="radio" name="q19" value="c"> c) Prolactin</label>
+                <label class="answer"><input type="radio" name="q19" value="d"> d) Oxytocin</label>
+            </div>
+
+            <div id="q20" class="question">
+                <p>20. Which structure produces sperm?</p>
+                <label class="answer"><input type="radio" name="q20" value="a"> a) Epididymis</label>
+                <label class="answer"><input type="radio" name="q20" value="b"> b) Vas deferens</label>
+                <label class="answer"><input type="radio" name="q20" value="c"> c) Seminiferous tubules</label>
+                <label class="answer"><input type="radio" name="q20" value="d"> d) Prostate gland</label>
+            </div>
+
+            <div id="q21" class="question">
+                <p>21. What hormone stimulates milk production after childbirth?</p>
+                <label class="answer"><input type="radio" name="q21" value="a"> a) Oxytocin</label>
+                <label class="answer"><input type="radio" name="q21" value="b"> b) Estrogen</label>
+                <label class="answer"><input type="radio" name="q21" value="c"> c) Progesterone</label>
+                <label class="answer"><input type="radio" name="q21" value="d"> d) Prolactin</label>
+            </div>
+
+            <div id="q22" class="question">
+                <p>22. What term describes the cessation of menstruation in women?</p>
+                <label class="answer"><input type="radio" name="q22" value="a"> a) Ovulation</label>
+                <label class="answer"><input type="radio" name="q22" value="b"> b) Menopause</label>
+                <label class="answer"><input type="radio" name="q22" value="c"> c) Fertilization</label>
+                <label class="answer"><input type="radio" name="q22" value="d"> d) Implantation</label>
+            </div>
+
+            <div id="q23" class="question">
+                <p>23. Which of the following is a barrier method of birth control?</p>
+                <label class="answer"><input type="radio" name="q23" value="a"> a) Birth control pills</label>
+                <label class="answer"><input type="radio" name="q23" value="b"> b) IUD</label>
+                <label class="answer"><input type="radio" name="q23" value="c"> c) Condom</label>
+                <label class="answer"><input type="radio" name="q23" value="d"> d) Patch</label>
+            </div>
+
+            <div id="q24" class="question">
+                <p>24. What is the function of the umbilical cord?</p>
+                <label class="answer"><input type="radio" name="q24" value="a"> a) Protects the embryo</label>
+                <label class="answer"><input type="radio" name="q24" value="b"> b) Connects the fetus to the
+                    placenta</label>
+                <label class="answer"><input type="radio" name="q24" value="c"> c) Prevents infection</label>
+                <label class="answer"><input type="radio" name="q24" value="d"> d) Stores nutrients</label>
+            </div>
+
+            <div id="q25" class="question">
+                <p>25. What is the process called when an embryo implants into the uterus?</p>
+                <label class="answer"><input type="radio" name="q25" value="a"> a) Ovulation</label>
+                <label class="answer"><input type="radio" name="q25" value="b"> b) Fertilization</label>
+                <label class="answer"><input type="radio" name="q25" value="c"> c) Implantation</label>
+                <label class="answer"><input type="radio" name="q25" value="d"> d) Menstruation</label>
+            </div>
+
+            <div id="q26" class="question">
+                <p>26. What organ contracts to push the baby out during childbirth?</p>
+                <label class="answer"><input type="radio" name="q26" value="a"> a) Cervix</label>
+                <label class="answer"><input type="radio" name="q26" value="b"> b) Uterus</label>
+                <label class="answer"><input type="radio" name="q26" value="c"> c) Vagina</label>
+                <label class="answer"><input type="radio" name="q26" value="d"> d) Placenta</label>
+            </div>
+
+            <div id="q27" class="question">
+                <p>27. What structure prevents multiple sperm from fertilizing the same egg?</p>
+                <label class="answer"><input type="radio" name="q27" value="a"> a) Zona pellucida</label>
+                <label class="answer"><input type="radio" name="q27" value="b"> b) Placenta</label>
+                <label class="answer"><input type="radio" name="q27" value="c"> c) Endometrium</label>
+                <label class="answer"><input type="radio" name="q27" value="d"> d) Follicle</label>
+            </div>
+
+            <div id="q28" class="question">
+                <p>28. Which gland produces prostaglandins that cause uterine contractions?</p>
+                <label class="answer"><input type="radio" name="q28" value="a"> a) Testes</label>
+                <label class="answer"><input type="radio" name="q28" value="b"> b) Bulbourethral gland</label>
+                <label class="answer"><input type="radio" name="q28" value="c"> c) Prostate gland</label>
+                <label class="answer"><input type="radio" name="q28" value="d"> d) Pituitary gland</label>
+            </div>
+
+            <div id="q29" class="question">
+                <p>29. What is the role of inhibin in male reproduction?</p>
+                <label class="answer"><input type="radio" name="q29" value="a"> a) Stimulates testosterone</label>
+                <label class="answer"><input type="radio" name="q29" value="b"> b) Blocks sperm movement</label>
+                <label class="answer"><input type="radio" name="q29" value="c"> c) Inhibits FSH production</label>
+                <label class="answer"><input type="radio" name="q29" value="d"> d) Enhances sperm motility</label>
+            </div>
+
+            <div id="q30" class="question">
+                <p>30. What is the outermost layer of the embryo?</p>
+                <label class="answer"><input type="radio" name="q30" value="a"> a) Endoderm</label>
+                <label class="answer"><input type="radio" name="q30" value="b"> b) Mesoderm</label>
+                <label class="answer"><input type="radio" name="q30" value="c"> c) Ectoderm</label>
+                <label class="answer"><input type="radio" name="q30" value="d"> d) Blastocyst</label>
+            </div>
+
+            <div id="q31" class="question">
+                <p>31. What is the main function of estrogen?</p>
+                <label class="answer"><input type="radio" name="q31" value="a"> a) Stimulate sperm production</label>
+                <label class="answer"><input type="radio" name="q31" value="b"> b) Maintain female secondary sex
+                    characteristics</label>
+                <label class="answer"><input type="radio" name="q31" value="c"> c) Prevent ovulation</label>
+                <label class="answer"><input type="radio" name="q31" value="d"> d) Increase testosterone</label>
+            </div>
+
+            <div id="q32" class="question">
+                <p>32. What is the term for a fertilized egg?</p>
+                <label class="answer"><input type="radio" name="q32" value="a"> a) Embryo</label>
+                <label class="answer"><input type="radio" name="q32" value="b"> b) Zygote</label>
+                <label class="answer"><input type="radio" name="q32" value="c"> c) Blastocyst</label>
+                <label class="answer"><input type="radio" name="q32" value="d"> d) Fetus</label>
+            </div>
+
+            <div id="q33" class="question">
+                <p>33. Which hormone is responsible for labor contractions?</p>
+                <label class="answer"><input type="radio" name="q33" value="a"> a) Prolactin</label>
+                <label class="answer"><input type="radio" name="q33" value="b"> b) Oxytocin</label>
+                <label class="answer"><input type="radio" name="q33" value="c"> c) Progesterone</label>
+                <label class="answer"><input type="radio" name="q33" value="d"> d) LH</label>
+            </div>
+
+            <div id="q34" class="question">
+                <p>34. What is the primary purpose of the amniotic sac?</p>
+                <label class="answer"><input type="radio" name="q34" value="a"> a) Provide nutrients</label>
+                <label class="answer"><input type="radio" name="q34" value="b"> b) Protect the fetus</label>
+                <label class="answer"><input type="radio" name="q34" value="c"> c) Regulate hormones</label>
+                <label class="answer"><input type="radio" name="q34" value="d"> d) Store waste</label>
+            </div>
+
+            <div id="q35" class="question">
+                <p>35. What is the first stage of parturition (labor)?</p>
+                <label class="answer"><input type="radio" name="q35" value="a"> a) Dilation</label>
+                <label class="answer"><input type="radio" name="q35" value="b"> b) Expulsion</label>
+                <label class="answer"><input type="radio" name="q35" value="c"> c) Delivery of placenta</label>
+                <label class="answer"><input type="radio" name="q35" value="d"> d) Ovulation</label>
+            </div>
+
+            <div id="q36" class="question">
+                <p>36. What is the name of the first stage of embryonic development?</p>
+                <label class="answer"><input type="radio" name="q36" value="a"> a) Blastula</label>
+                <label class="answer"><input type="radio" name="q36" value="b"> b) Morula</label>
+                <label class="answer"><input type="radio" name="q36" value="c"> c) Gastrula</label>
+                <label class="answer"><input type="radio" name="q36" value="d"> d) Zygote</label>
+            </div>
+
+            <div id="q37" class="question">
+                <p>37. What is a gamete?</p>
+                <label class="answer"><input type="radio" name="q37" value="a"> a) A fertilized egg</label>
+                <label class="answer"><input type="radio" name="q37" value="b"> b) A reproductive cell</label>
+                <label class="answer"><input type="radio" name="q37" value="c"> c) A hormone</label>
+                <label class="answer"><input type="radio" name="q37" value="d"> d) A placenta</label>
+            </div>
+
+            <div id="q38" class="question">
+                <p>38. Where are sperm stored before ejaculation?</p>
+                <label class="answer"><input type="radio" name="q38" value="a"> a) Epididymis</label>
+                <label class="answer"><input type="radio" name="q38" value="b"> b) Vas deferens</label>
+                <label class="answer"><input type="radio" name="q38" value="c"> c) Seminiferous tubules</label>
+                <label class="answer"><input type="radio" name="q38" value="d"> d) Urethra</label>
+            </div>
+
+            <div id="q39" class="question">
+                <p>39. Which method of birth control prevents implantation?</p>
+                <label class="answer"><input type="radio" name="q39" value="a"> a) Condom</label>
+                <label class="answer"><input type="radio" name="q39" value="b"> b) Birth control pill</label>
+                <label class="answer"><input type="radio" name="q39" value="c"> c) IUD</label>
+                <label class="answer"><input type="radio" name="q39" value="d"> d) Diaphragm</label>
+            </div>
+
+            <div id="q40" class="question">
+                <p>40. What is the main function of the chorion in embryonic development?</p>
+                <label class="answer"><input type="radio" name="q40" value="a"> a) Nutrient absorption</label>
+                <label class="answer"><input type="radio" name="q40" value="b"> b) Gas exchange and placenta
+                    formation</label>
+                <label class="answer"><input type="radio" name="q40" value="c"> c) Hormone secretion</label>
+                <label class="answer"><input type="radio" name="q40" value="d"> d) Waste removal</label>
+            </div>
+
+            <div id="q41" class="question">
+                <p>41. What is the term for the solid ball of cells formed after fertilization?</p>
+                <label class="answer"><input type="radio" name="q41" value="a"> a) Zygote</label>
+                <label class="answer"><input type="radio" name="q41" value="b"> b) Blastocyst</label>
+                <label class="answer"><input type="radio" name="q41" value="c"> c) Morula</label>
+                <label class="answer"><input type="radio" name="q41" value="d"> d) Gastrula</label>
+            </div>
+
+            <div id="q42" class="question">
+                <p>42. Which sexually transmitted infection (STI) is caused by a virus and can lead to cervical cancer?
+                </p>
+                <label class="answer"><input type="radio" name="q42" value="a"> a) Chlamydia</label>
+                <label class="answer"><input type="radio" name="q42" value="b"> b) Syphilis</label>
+                <label class="answer"><input type="radio" name="q42" value="c"> c) Gonorrhea</label>
+                <label class="answer"><input type="radio" name="q42" value="d"> d) Human papillomavirus (HPV)</label>
+            </div>
+
+            <div id="q43" class="question">
+                <p>43. What hormone is detected in pregnancy tests?</p>
+                <label class="answer"><input type="radio" name="q43" value="a"> a) Estrogen</label>
+                <label class="answer"><input type="radio" name="q43" value="b"> b) Progesterone</label>
+                <label class="answer"><input type="radio" name="q43" value="c"> c) hCG</label>
+                <label class="answer"><input type="radio" name="q43" value="d"> d) FSH</label>
+            </div>
+
+            <div id="q44" class="question">
+                <p>44. Which hormone prevents ovulation when taking birth control pills?</p>
+                <label class="answer"><input type="radio" name="q44" value="a"> a) Testosterone</label>
+                <label class="answer"><input type="radio" name="q44" value="b"> b) Progesterone</label>
+                <label class="answer"><input type="radio" name="q44" value="c"> c) FSH</label>
+                <label class="answer"><input type="radio" name="q44" value="d"> d) LH</label>
+            </div>
+
+            <div id="q45" class="question">
+                <p>45. What is the term for the layer of the uterus that sheds during menstruation?</p>
+                <label class="answer"><input type="radio" name="q45" value="a"> a) Myometrium</label>
+                <label class="answer"><input type="radio" name="q45" value="b"> b) Endometrium</label>
+                <label class="answer"><input type="radio" name="q45" value="c"> c) Cervix</label>
+                <label class="answer"><input type="radio" name="q45" value="d"> d) Chorion</label>
+            </div>
+
+            <div id="q46" class="question">
+                <p>46. Which STI is caused by bacteria and can lead to pelvic inflammatory disease (PID) in women?</p>
+                <label class="answer"><input type="radio" name="q46" value="a"> a) Herpes</label>
+                <label class="answer"><input type="radio" name="q46" value="b"> b) Gonorrhea</label>
+                <label class="answer"><input type="radio" name="q46" value="c"> c) HPV</label>
+                <label class="answer"><input type="radio" name="q46" value="d"> d) HIV</label>
+            </div>
+
+            <div id="q47" class="question">
+                <p>47. What is the primary function of the allantois in an embryo?</p>
+                <label class="answer"><input type="radio" name="q47" value="a"> a) Gas exchange</label>
+                <label class="answer"><input type="radio" name="q47" value="b"> b) Blood vessel formation for waste
+                    removal</label>
+                <label class="answer"><input type="radio" name="q47" value="c"> c) Nutrient storage</label>
+                <label class="answer"><input type="radio" name="q47" value="d"> d) Hormone production</label>
+            </div>
+
+            <div id="q48" class="question">
+                <p>48. At what stage does an embryo implant into the uterine wall?</p>
+                <label class="answer"><input type="radio" name="q48" value="a"> a) Zygote</label>
+                <label class="answer"><input type="radio" name="q48" value="b"> b) Morula</label>
+                <label class="answer"><input type="radio" name="q48" value="c"> c) Blastocyst</label>
+                <label class="answer"><input type="radio" name="q48" value="d"> d) Gastrula</label>
+            </div>
+
+            <div id="q49" class="question">
+                <p>49. What structure allows oxygen and nutrients to pass from mother to fetus?</p>
+                <label class="answer"><input type="radio" name="q49" value="a"> a) Amniotic sac</label>
+                <label class="answer"><input type="radio" name="q49" value="b"> b) Placenta</label>
+                <label class="answer"><input type="radio" name="q49" value="c"> c) Yolk sac</label>
+                <label class="answer"><input type="radio" name="q49" value="d"> d) Fallopian tube</label>
+            </div>
+
+            <div id="q50" class="question">
+                <p>50. What is the function of relaxin during pregnancy?</p>
+                <label class="answer"><input type="radio" name="q50" value="a"> a) Stimulates contractions</label>
+                <label class="answer"><input type="radio" name="q50" value="b"> b) Softens the cervix and loosens
+                    ligaments</label>
+                <label class="answer"><input type="radio" name="q50" value="c"> c) Inhibits ovulation</label>
+                <label class="answer"><input type="radio" name="q50" value="d"> d) Increases milk production</label>
+            </div>
+
+        </form>
+
+        <div id="results" style="display: none;"> <!--display: none when quiz is not submitted-->
+            <h2>Results</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
