@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
     q21: "d", q22: "b", q23: "c", q24: "b", q25: "c", q26: "b", q27: "a", q28: "c", q29: "c", q30: "c",
     q31: "b", q32: "b", q33: "b", q34: "b", q35: "a", q36: "d", q37: "b", q38: "a", q39: "c", q40: "b",
     q41: "c", q42: "d", q43: "c", q44: "b", q45: "b", q46: "b", q47: "b", q48: "c", q49: "b", q50: "b",
-    match1: "Implantation", match2: "Fertilization", match3: "Cleavage", match4: "Morula Formation",
-    match5: "Early Blastocyst Formation", match6: "Ovulation", matcha: "zygote", matchb: "ovary",
-    matchc: "uterine tube (oviduct)", matchd: "inner cell mass", matche: "4-cell stage",
-    matchf: "2-cell stage", matchg: "8-cell stage", matchh: "fimbriae", matchi: "trophoblast",
-    matchj: "corona radiata"
+    match1: "Ovulation", match2: "Fertilization", match3: "Cleavage", match4: "Morula Formation",
+    match5: "Early Blastocyst Formation", match6: "Implantation", matcha: "corona radiata", matchb: "zona pellucida",
+    matchc: "sperm nucleus", matchd: "oocyte nucleus", matche: "zygote",
+    matchf: "2-cell stage", matchg: "4-cell stage", matchh: "8-cell stage", matchi: "inner cell mass",
+    matchj: "trophoblast", matchk: "fimbriae", matchl: "ovary", matchm: "uterine tube (oviduct)"  
   };
 
   let timer = 1800;
