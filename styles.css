@@ -108,7 +108,7 @@ img {
 }
 
 .matching {
-    columns: 2;
+    columns: 5;
     column-gap: 20px;
     padding-top: 20px;
 }
