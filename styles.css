@@ -25,13 +25,13 @@ body {
 
 .topnav .timer {
     font-size: 18px;
-    padding-left: 10px;
+    padding-left: 2vw;
 }
 
 .topnav .buttons {
     display: flex;
     gap: 10px;
-    padding-right: 10px;
+    padding-right: 2vw;
 }
 
 .topnav button {
@@ -90,7 +90,7 @@ h1 {
     display: block;
 }
 
-#diagram-matching {
+h2 {
     padding-top: 20px;
 }
 
@@ -107,7 +107,7 @@ img {
 }
 
 .matching {
-    columns: 5;
+    columns: 10;
     column-gap: 20px;
     padding-top: 20px;
 }

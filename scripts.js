@@ -18,7 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
     match5: "Early Blastocyst Formation", match6: "Implantation", matcha: "corona radiata", matchb: "zona pellucida",
     matchc: "sperm nucleus", matchd: "oocyte nucleus", matche: "zygote",
     matchf: "2-cell stage", matchg: "4-cell stage", matchh: "8-cell stage", matchi: "inner cell mass",
-    matchj: "trophoblast", matchk: "fimbriae", matchl: "ovary", matchm: "uterine tube (oviduct)"  
+    matchj: "trophoblast", matchk: "fimbriae", matchl: "ovary", matchm: "uterine tube (oviduct)",
+    match2a: "urinary bladder", match2b: "pubic bone", match2c: "vas deferens", match2d: "erectile tissue",
+    match2e: "urethra", match2f: "penis", match2g: "glans", match2h: "foreskin", match2i: "ureter",
+    match2j: "seminal vesicle", match2k: "ejaculatory duct", match2l: "prostate gland", 
+    match2m: "bulbourethral gland", match2n: "anus", match2o: "epididymis", match2p: "testis", match2q: "scrotum"
   };
 
   let timer = 1800;
