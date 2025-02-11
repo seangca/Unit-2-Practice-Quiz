@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     match3m: "rectum", match3n: "vagina", match3o: "anus",
   };
 
-  let timer = 1800;
+  let timer = 3000;
   let timerInterval;
 
   const updateTimer = () => {
