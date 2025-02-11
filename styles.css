@@ -12,7 +12,7 @@ body {
 }
 
 .topnav {
-    position: relative;
+    position: sticky;
     top: 0;
     background-color: #333;
     color: white;
@@ -25,13 +25,13 @@ body {
 
 .topnav .timer {
     font-size: 18px;
-    padding-left: 2vw;
+    padding-left: 2rem;
 }
 
 .topnav .buttons {
     display: flex;
     gap: 10px;
-    padding-right: 2vw;
+    padding-right: 2rem;
 }
 
 .topnav button {
@@ -63,7 +63,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    max-width: 1080px;
+    max-width: 70vw;
     width: 80%;
     margin-top: 20px;
 }
@@ -107,9 +107,16 @@ img {
 }
 
 .matching {
-    columns: 20;
-    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust width as needed */
+    gap: 20px;
     padding-top: 20px;
+}
+
+.match-item {
+    display: flex;
+    flex-direction: column; /* Keeps label and select stacked */
+    align-items: center; /* Centers them */
 }
 
 select {
