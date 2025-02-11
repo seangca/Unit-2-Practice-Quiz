@@ -12,7 +12,7 @@ body {
 }
 
 .topnav {
-    position: sticky;
+    position: relative;
     top: 0;
     background-color: #333;
     color: white;
@@ -107,8 +107,8 @@ img {
 }
 
 .matching {
-    columns: 10;
-    column-gap: 20px;
+    columns: 20;
+    column-gap: 10px;
     padding-top: 20px;
 }
 

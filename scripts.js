@@ -22,7 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
     match2a: "urinary bladder", match2b: "pubic bone", match2c: "vas deferens", match2d: "erectile tissue",
     match2e: "urethra", match2f: "penis", match2g: "glans", match2h: "foreskin", match2i: "ureter",
     match2j: "seminal vesicle", match2k: "ejaculatory duct", match2l: "prostate gland", 
-    match2m: "bulbourethral gland", match2n: "anus", match2o: "epididymis", match2p: "testis", match2q: "scrotum"
+    match2m: "bulbourethral gland", match2n: "anus", match2o: "epididymis", match2p: "testis", match2q: "scrotum",
+    match3a: "uterine tube (oviduct)", match3b: "ovary", match3c: "fimbriae", match3d: "uterus",
+    match3e: "urinary bladder", match3f: "pubic bone", match3g: "urethra", match3h: "glans clitoris",
+    match3i: "labium minora", match3j: "labium majora", match3k: "vaginal orifice", match3l: "cervix",
+    match3m: "rectum", match3n: "vagina", match3o: "anus",
   };
 
   let timer = 1800;
