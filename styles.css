@@ -16,7 +16,7 @@ body {
     top: 0;
     background-color: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -24,21 +24,21 @@ body {
 }
 
 .topnav .timer {
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-left: 2rem;
 }
 
 .topnav .buttons {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     padding-right: 2rem;
 }
 
 .topnav button {
-    padding: 10px 15px;
-    font-size: 16px;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     color: white;
     cursor: pointer;
 }
@@ -61,37 +61,37 @@ body {
 
 .container {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 2rem;
+    border-radius: 1rem;
     max-width: 70vw;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 h1 {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 .correct {
     background-color: lightgreen;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .incorrect {
     background-color: lightcoral;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .answer {
-    padding: 10px;
+    padding: 1rem;
     display: block;
 }
 
 h2 {
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 img {
@@ -101,16 +101,16 @@ img {
     margin: 0 auto;
 }
 
-.matching select  {
-    font-size: 16px;
-    margin-bottom: 10px;
+.matching select {
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .matching {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust width as needed */
-    gap: 20px;
-    padding-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(10vw, 1fr)); /* Adjust width as needed */
+    gap: 2rem;
+    padding-top: 2rem;
 }
 
 .match-item {
@@ -121,7 +121,7 @@ img {
 
 select {
     width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
 }
